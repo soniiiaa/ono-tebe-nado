@@ -1,1 +1,1 @@
-https://github.com/soniiiaa/first-project
+https://github.com/soniiiaa/ono-tebe-nado
