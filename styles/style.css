@@ -17,11 +17,15 @@
   padding-top: 5px;
 }
 
-.link_active {
+.link {
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+.link_active { 
+  text-decoration: none;
 }
 
 .header {
@@ -110,11 +114,11 @@
   align-self: start;
 }
 
-.cover_title_right_gap {
+.letter_spacing_extended {
   margin-right: 30px;
 }
 
-.cover_title_no_gap {
+.no_letter_spacing {
   letter-spacing: 0px;
 }
 
@@ -207,14 +211,14 @@
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_text {
